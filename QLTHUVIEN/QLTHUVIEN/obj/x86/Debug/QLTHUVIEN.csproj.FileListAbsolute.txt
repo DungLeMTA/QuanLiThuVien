@@ -1,0 +1,43 @@
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.exe
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.pdb
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.dangnhap.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.GenerateResource.Cache
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.exe
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.pdb
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formchinh.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.theloaisach.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csprojResolveAssemblyReference.cache
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtacgia.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formnhaxb.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formcapnhatsach.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formnhanvien.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formdocgia.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formmuontra.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtimkiemsach.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtimkiemdocgia.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formthongkesach.resources
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.ResolveComReference.cache
+E:\CHU THUAN\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formthongkedocgia.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.exe
+D:\do an\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.pdb
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csprojAssemblyReference.cache
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.ResolveComReference.cache
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.dangnhap.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formchinh.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.theloaisach.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtacgia.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formnhaxb.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formcapnhatsach.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formdocgia.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formmuontra.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formnhanvien.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formthongkedocgia.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formthongkesach.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtimkiemdocgia.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtimkiemsach.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.GenerateResource.cache
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.CoreCompileInputs.cache
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.exe
+D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.pdb
