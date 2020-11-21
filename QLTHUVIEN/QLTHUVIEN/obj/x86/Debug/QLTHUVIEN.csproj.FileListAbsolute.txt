@@ -41,3 +41,25 @@ D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.GenerateResource.cac
 D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.CoreCompileInputs.cache
 D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.exe
 D:\do an\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.pdb
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csprojAssemblyReference.cache
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.ResolveComReference.cache
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.dangnhap.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formchinh.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.theloaisach.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtacgia.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formnhaxb.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formcapnhatsach.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formdocgia.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formmuontra.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formnhanvien.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formthongkedocgia.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formthongkesach.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtimkiemdocgia.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Formtimkiemsach.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.GenerateResource.cache
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.csproj.CoreCompileInputs.cache
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.exe
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.pdb
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.exe
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.pdb

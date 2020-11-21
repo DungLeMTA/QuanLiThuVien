@@ -118,5 +118,12 @@ namespace WindowsFormsApplication1
 
         }
 
+        private void mượnTrảSáchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form f = new Formmuontra();
+            f.Show();
+            //this.Show();
+        }
     }
 }
