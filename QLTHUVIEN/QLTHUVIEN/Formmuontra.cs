@@ -33,7 +33,7 @@ namespace WindowsFormsApplication1
             //luoi.Columns[1].HeaderText = "Mã độc giả";
             //luoi.Columns[2].HeaderText = "Mã nhân viên";
             //luoi.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
-            
+
             //xoa.Enabled = true;
             //sua.Text = "Sửa";
             //them.Enabled = true;
@@ -41,6 +41,15 @@ namespace WindowsFormsApplication1
             //xoa.Enabled = true;
             //luu.Enabled = false;
             //luoi.Enabled = true;
+            DataTable dt = new DataTable();
+            dt.Rows[0][0] = "AN0101";
+            dt.Rows[0][1] = "Lê Văn Phiêu";
+            dt.Rows[0][2] = "SGK0101";
+            dt.Rows[0][3] = "Sách giáo khoa TV1";
+            dt.Rows[0][4] = "01/11/2020";
+            dt.Rows[0][5] = "Chưa trả";
+
+            dgvDanhsach.DataSource = dt;
 
         }
 
@@ -407,6 +416,15 @@ namespace WindowsFormsApplication1
             frm.Show();
         }
 
+        private void luu_Click(object sender, EventArgs e)
+        {
+            DialogResult re = new DialogResult();
+            re = MessageBox.Show("Có chắc chắn thêm không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if(re == DialogResult.Yes)
+            {
+                MessageBox.Show("Thêm thành công!");
+            }
+        }
 
         private void xoa1_Click(object sender, EventArgs e)
         {

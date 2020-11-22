@@ -101,6 +101,16 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tab1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -113,6 +123,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -127,6 +139,7 @@
             // 
             // tab1
             // 
+            this.tab1.Controls.Add(this.pictureBox10);
             this.tab1.Controls.Add(this.pictureBox8);
             this.tab1.Controls.Add(this.pictureBox7);
             this.tab1.Controls.Add(this.pictureBox6);
@@ -248,7 +261,6 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(497, 152);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 95);
@@ -281,7 +293,6 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(121, 20);
             this.textBox10.TabIndex = 70;
-            this.textBox10.Text = "Nhà xuất bản giáo dục";
             // 
             // label24
             // 
@@ -394,7 +405,6 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(121, 20);
             this.textBox5.TabIndex = 58;
-            this.textBox5.Text = "Sách giáo khoa TV 1";
             // 
             // label17
             // 
@@ -412,7 +422,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(121, 20);
             this.textBox4.TabIndex = 56;
-            this.textBox4.Text = "SGK0101";
+            this.textBox4.Text = "SGK0202";
             // 
             // label16
             // 
@@ -496,6 +506,7 @@
             this.luu.TabIndex = 46;
             this.luu.Text = "Xác Nhận";
             this.luu.UseVisualStyleBackColor = true;
+            this.luu.Click += new System.EventHandler(this.luu_Click);
             // 
             // label5
             // 
@@ -540,6 +551,7 @@
             // 
             // tab2
             // 
+            this.tab2.Controls.Add(this.pictureBox9);
             this.tab2.Controls.Add(this.textBox21);
             this.tab2.Controls.Add(this.textBox20);
             this.tab2.Controls.Add(this.textBox19);
@@ -576,7 +588,7 @@
             // 
             // luu1
             // 
-            this.luu1.Location = new System.Drawing.Point(398, 221);
+            this.luu1.Location = new System.Drawing.Point(420, 221);
             this.luu1.Name = "luu1";
             this.luu1.Size = new System.Drawing.Size(121, 32);
             this.luu1.TabIndex = 22;
@@ -597,6 +609,15 @@
             // dgvDanhsach
             // 
             this.dgvDanhsach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDanhsach.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column7,
+            this.Column8});
             this.dgvDanhsach.Location = new System.Drawing.Point(7, 338);
             this.dgvDanhsach.Name = "dgvDanhsach";
             this.dgvDanhsach.Size = new System.Drawing.Size(678, 196);
@@ -608,7 +629,7 @@
             // 
             this.ngaytra.Enabled = false;
             this.ngaytra.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.ngaytra.Location = new System.Drawing.Point(398, 181);
+            this.ngaytra.Location = new System.Drawing.Point(420, 181);
             this.ngaytra.Name = "ngaytra";
             this.ngaytra.Size = new System.Drawing.Size(121, 20);
             this.ngaytra.TabIndex = 15;
@@ -618,7 +639,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(284, 183);
+            this.label6.Location = new System.Drawing.Point(306, 183);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(103, 18);
             this.label6.TabIndex = 14;
@@ -690,7 +711,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label10.Location = new System.Drawing.Point(284, 66);
+            this.label10.Location = new System.Drawing.Point(306, 66);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(96, 18);
             this.label10.TabIndex = 49;
@@ -699,7 +720,7 @@
             // textBox14
             // 
             this.textBox14.Enabled = false;
-            this.textBox14.Location = new System.Drawing.Point(398, 67);
+            this.textBox14.Location = new System.Drawing.Point(420, 67);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(121, 20);
             this.textBox14.TabIndex = 50;
@@ -719,7 +740,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label12.Location = new System.Drawing.Point(284, 123);
+            this.label12.Location = new System.Drawing.Point(306, 123);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(77, 18);
             this.label12.TabIndex = 52;
@@ -737,7 +758,7 @@
             // textBox17
             // 
             this.textBox17.Enabled = false;
-            this.textBox17.Location = new System.Drawing.Point(398, 124);
+            this.textBox17.Location = new System.Drawing.Point(420, 124);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(121, 20);
             this.textBox17.TabIndex = 54;
@@ -844,7 +865,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(60, 204);
             this.pictureBox6.Name = "pictureBox6";
@@ -875,6 +896,68 @@
             this.pictureBox8.TabIndex = 86;
             this.pictureBox8.TabStop = false;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(255, 117);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 84;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(286, 103);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 87;
+            this.pictureBox10.TabStop = false;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "STT";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Mã độc giả";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Tên độc giả";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Mã sách";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Tên sách";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Tác giả";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Ngày mượn";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Trạng thái";
+            this.Column8.Name = "Column8";
+            // 
             // Formmuontra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -902,6 +985,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -981,5 +1066,15 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
     }
 }
