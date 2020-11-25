@@ -101,6 +101,12 @@
     <Compile Include="Formnhanvien.Designer.cs">
       <DependentUpon>Formnhanvien.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPass2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPass2.Designer.cs">
+      <DependentUpon>FormPass2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formthongkedocgia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formnhanvien.resx">
       <DependentUpon>Formnhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPass2.resx">
+      <DependentUpon>FormPass2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formthongkedocgia.resx">
       <DependentUpon>Formthongkedocgia.cs</DependentUpon>

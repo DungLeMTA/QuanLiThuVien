@@ -41,15 +41,48 @@ namespace WindowsFormsApplication1
             //xoa.Enabled = true;
             //luu.Enabled = false;
             //luoi.Enabled = true;
-            DataTable dt = new DataTable();
-            dt.Rows[0][0] = "AN0101";
-            dt.Rows[0][1] = "Lê Văn Phiêu";
-            dt.Rows[0][2] = "SGK0101";
-            dt.Rows[0][3] = "Sách giáo khoa TV1";
-            dt.Rows[0][4] = "01/11/2020";
-            dt.Rows[0][5] = "Chưa trả";
+            //DataTable dt = new DataTable();
 
-            dgvDanhsach.DataSource = dt;
+            //dt.Rows[1][0] = "AN0101";
+            //dt.Rows[1][1] = "Lê Văn Phiêu";
+            //dt.Rows[0][2] = "SGK0101";
+            //dt.Rows[0][3] = "Sách giáo khoa TV1";
+            //dt.Rows[0][4] = "01/11/2020";
+            //dt.Rows[0][5] = "Chưa trả";
+
+            //dgvDanhsach.DataSource = dt;
+
+            dgvDanhsach.ColumnCount = 8;
+            dgvDanhsach.Columns[0].HeaderText = "STT";
+            dgvDanhsach.Columns[1].HeaderText = "Mã độc giả";
+            dgvDanhsach.Columns[2].HeaderText = "Tên độc giả";
+            dgvDanhsach.Columns[3].HeaderText = "Mã sách";
+            dgvDanhsach.Columns[4].HeaderText = "Tên sách";
+            dgvDanhsach.Columns[5].HeaderText = "Tác giả";
+            dgvDanhsach.Columns[6].HeaderText = "Ngày mượn";
+            dgvDanhsach.Columns[7].HeaderText = "Trạng thái";
+            dgvDanhsach.RowCount = 3;
+            dgvDanhsach.Rows[0].Cells[0].Value = "1";
+            dgvDanhsach.Rows[1].Cells[0].Value = "2";
+            dgvDanhsach.Rows[2].Cells[0].Value = "3";
+            dgvDanhsach.Rows[0].Cells[1].Value = "AN0101";
+            dgvDanhsach.Rows[1].Cells[1].Value = "AN0102";
+            dgvDanhsach.Rows[2].Cells[1].Value = "AN0103";
+            dgvDanhsach.Rows[0].Cells[2].Value = "Lê Văn Phiêu";
+            dgvDanhsach.Rows[1].Cells[2].Value = "Trần Sang Anh";
+            dgvDanhsach.Rows[2].Cells[2].Value = "Lê Duy Dũng";
+            dgvDanhsach.Rows[0].Cells[3].Value = "SGK01";
+            dgvDanhsach.Rows[1].Cells[3].Value = "SGK04";
+            dgvDanhsach.Rows[2].Cells[3].Value = "SGK10";
+            dgvDanhsach.Rows[0].Cells[4].Value = "Sách giáo khoa TV1";
+            dgvDanhsach.Rows[1].Cells[4].Value = "Sách giáo khoa HH9";
+            dgvDanhsach.Rows[2].Cells[4].Value = "Sách giáo khoa T11";
+            dgvDanhsach.Rows[0].Cells[5].Value = "Nhà xuất bản giáo dục";
+            dgvDanhsach.Rows[1].Cells[5].Value = "Nhà xuất bản giáo dục";
+            dgvDanhsach.Rows[2].Cells[5].Value = "Nhà xuất bản Kim Đồng";
+            dgvDanhsach.Rows[0].Cells[6].Value = "01/12/2020";
+            dgvDanhsach.Rows[1].Cells[6].Value = "01/11/2020";
+            dgvDanhsach.Rows[2].Cells[6].Value = "11/12/2020";
 
         }
 
@@ -428,6 +461,7 @@ namespace WindowsFormsApplication1
 
         private void xoa1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Xóa thành công");
             //if (xoa1.Text == "hủy")
             //{
 

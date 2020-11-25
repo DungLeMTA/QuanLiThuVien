@@ -54,9 +54,6 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -97,20 +94,13 @@
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox21 = new System.Windows.Forms.TextBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tab1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -119,12 +109,10 @@
             this.tab2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhsach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -139,11 +127,9 @@
             // 
             // tab1
             // 
-            this.tab1.Controls.Add(this.pictureBox10);
             this.tab1.Controls.Add(this.pictureBox8);
             this.tab1.Controls.Add(this.pictureBox7);
             this.tab1.Controls.Add(this.pictureBox6);
-            this.tab1.Controls.Add(this.pictureBox5);
             this.tab1.Controls.Add(this.textBox13);
             this.tab1.Controls.Add(this.label25);
             this.tab1.Controls.Add(this.label26);
@@ -197,12 +183,11 @@
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(42, 20);
             this.textBox13.TabIndex = 82;
-            this.textBox13.Text = "0";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(-7, 477);
+            this.label25.Location = new System.Drawing.Point(-5, 477);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(697, 13);
             this.label25.TabIndex = 81;
@@ -406,34 +391,6 @@
             this.textBox5.Size = new System.Drawing.Size(121, 20);
             this.textBox5.TabIndex = 58;
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label17.Location = new System.Drawing.Point(210, 165);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(91, 18);
-            this.label17.TabIndex = 57;
-            this.label17.Text = "Tên sách 1";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(60, 166);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(121, 20);
-            this.textBox4.TabIndex = 56;
-            this.textBox4.Text = "SGK0202";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label16.Location = new System.Drawing.Point(9, 166);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 18);
-            this.label16.TabIndex = 55;
-            this.label16.Text = "Mã 1";
-            // 
             // textBox3
             // 
             this.textBox3.Enabled = false;
@@ -450,7 +407,6 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(42, 21);
             this.comboBox2.TabIndex = 53;
-            this.comboBox2.Text = "3";
             // 
             // label15
             // 
@@ -469,7 +425,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(161, 20);
             this.textBox2.TabIndex = 50;
-            this.textBox2.Text = "Lê Văn Phiêu";
             // 
             // label14
             // 
@@ -496,7 +451,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(121, 20);
             this.textBox1.TabIndex = 47;
-            this.textBox1.Text = "AN0101";
             // 
             // luu
             // 
@@ -609,16 +563,7 @@
             // dgvDanhsach
             // 
             this.dgvDanhsach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDanhsach.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8});
-            this.dgvDanhsach.Location = new System.Drawing.Point(7, 338);
+            this.dgvDanhsach.Location = new System.Drawing.Point(6, 338);
             this.dgvDanhsach.Name = "dgvDanhsach";
             this.dgvDanhsach.Size = new System.Drawing.Size(678, 196);
             this.dgvDanhsach.TabIndex = 18;
@@ -684,9 +629,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(305, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 20);
+            this.label1.Size = new System.Drawing.Size(166, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Quản Lí Mượn Trả Sách";
+            this.label1.Text = "Quản Lí Mượn Sách";
             // 
             // label9
             // 
@@ -753,7 +698,7 @@
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(121, 20);
             this.textBox16.TabIndex = 53;
-            this.textBox16.Text = "SGK0101";
+            this.textBox16.Text = "SGK01";
             // 
             // textBox17
             // 
@@ -762,10 +707,11 @@
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(121, 20);
             this.textBox17.TabIndex = 54;
-            this.textBox17.Text = "Sách giáo khoa TV 1";
+            this.textBox17.Text = "Sách giáo khoa TV1";
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Gray;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(560, 67);
             this.pictureBox4.Name = "pictureBox4";
@@ -830,6 +776,7 @@
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(109, 20);
             this.textBox18.TabIndex = 60;
+            this.textBox18.Text = "AN010";
             // 
             // textBox19
             // 
@@ -844,6 +791,7 @@
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(109, 20);
             this.textBox20.TabIndex = 62;
+            this.textBox20.Text = "AN010";
             // 
             // textBox21
             // 
@@ -851,28 +799,7 @@
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(109, 20);
             this.textBox21.TabIndex = 63;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(286, 53);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 83;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.White;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(60, 204);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 84;
-            this.pictureBox6.TabStop = false;
+            this.textBox21.Text = "Lê Văn Phiê";
             // 
             // pictureBox7
             // 
@@ -907,56 +834,44 @@
             this.pictureBox9.TabIndex = 84;
             this.pictureBox9.TabStop = false;
             // 
-            // pictureBox10
+            // label17
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(286, 103);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 87;
-            this.pictureBox10.TabStop = false;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label17.Location = new System.Drawing.Point(210, 165);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(91, 18);
+            this.label17.TabIndex = 57;
+            this.label17.Text = "Tên sách 1";
             // 
-            // Column1
+            // pictureBox6
             // 
-            this.Column1.HeaderText = "STT";
-            this.Column1.Name = "Column1";
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(60, 204);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 84;
+            this.pictureBox6.TabStop = false;
             // 
-            // Column2
+            // label16
             // 
-            this.Column2.HeaderText = "Mã độc giả";
-            this.Column2.Name = "Column2";
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label16.Location = new System.Drawing.Point(9, 166);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(45, 18);
+            this.label16.TabIndex = 55;
+            this.label16.Text = "Mã 1";
             // 
-            // Column3
+            // textBox4
             // 
-            this.Column3.HeaderText = "Tên độc giả";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Mã sách";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Tên sách";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Tác giả";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Ngày mượn";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Trạng thái";
-            this.Column8.Name = "Column8";
+            this.textBox4.Location = new System.Drawing.Point(60, 166);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(121, 20);
+            this.textBox4.TabIndex = 56;
+            this.textBox4.Text = "SGK0202";
             // 
             // Formmuontra
             // 
@@ -981,12 +896,10 @@
             this.tab2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhsach)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1033,9 +946,6 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label15;
@@ -1064,17 +974,10 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label16;
     }
 }

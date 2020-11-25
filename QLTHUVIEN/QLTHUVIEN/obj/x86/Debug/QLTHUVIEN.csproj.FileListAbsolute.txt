@@ -63,3 +63,4 @@ D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.exe
 D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\QLTHUVIEN.pdb
 D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.exe
 D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.pdb
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.FormPass2.resources
