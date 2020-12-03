@@ -52,7 +52,7 @@ namespace WindowsFormsApplication1
 
             //dgvDanhsach.DataSource = dt;
 
-            dgvDanhsach.ColumnCount = 8;
+            dgvDanhsach.ColumnCount = 9;
             dgvDanhsach.Columns[0].HeaderText = "STT";
             dgvDanhsach.Columns[1].HeaderText = "Mã độc giả";
             dgvDanhsach.Columns[2].HeaderText = "Tên độc giả";
@@ -60,29 +60,75 @@ namespace WindowsFormsApplication1
             dgvDanhsach.Columns[4].HeaderText = "Tên sách";
             dgvDanhsach.Columns[5].HeaderText = "Tác giả";
             dgvDanhsach.Columns[6].HeaderText = "Ngày mượn";
-            dgvDanhsach.Columns[7].HeaderText = "Trạng thái";
-            dgvDanhsach.RowCount = 3;
+            dgvDanhsach.Columns[7].HeaderText = "Số lượng đang mượn";
+            dgvDanhsach.Columns[8].HeaderText = "Trạng thái";
+            dgvDanhsach.RowCount = 6;
             dgvDanhsach.Rows[0].Cells[0].Value = "1";
             dgvDanhsach.Rows[1].Cells[0].Value = "2";
             dgvDanhsach.Rows[2].Cells[0].Value = "3";
+            dgvDanhsach.Rows[3].Cells[0].Value = "4";
+            dgvDanhsach.Rows[4].Cells[0].Value = "5";
+            dgvDanhsach.Rows[5].Cells[0].Value = "6";
+
             dgvDanhsach.Rows[0].Cells[1].Value = "AN0101";
             dgvDanhsach.Rows[1].Cells[1].Value = "AN0102";
             dgvDanhsach.Rows[2].Cells[1].Value = "AN0103";
+            dgvDanhsach.Rows[3].Cells[1].Value = "AN0104";
+            dgvDanhsach.Rows[4].Cells[1].Value = "AN0105";
+            dgvDanhsach.Rows[5].Cells[1].Value = "AN0106";
+
+
             dgvDanhsach.Rows[0].Cells[2].Value = "Lê Văn Phiêu";
             dgvDanhsach.Rows[1].Cells[2].Value = "Trần Sang Anh";
             dgvDanhsach.Rows[2].Cells[2].Value = "Lê Duy Dũng";
+            dgvDanhsach.Rows[3].Cells[2].Value = "Lê Duy Dũng";
+            dgvDanhsach.Rows[4].Cells[2].Value = "Lê Duy Dũng";
+            dgvDanhsach.Rows[5].Cells[2].Value = "Lê Duy Dũng";
+
             dgvDanhsach.Rows[0].Cells[3].Value = "SGK01";
             dgvDanhsach.Rows[1].Cells[3].Value = "SGK04";
             dgvDanhsach.Rows[2].Cells[3].Value = "SGK10";
+            dgvDanhsach.Rows[3].Cells[3].Value = "SGK48";
+            dgvDanhsach.Rows[4].Cells[3].Value = "SGK14";
+            dgvDanhsach.Rows[5].Cells[3].Value = "SGK89";
+
+
             dgvDanhsach.Rows[0].Cells[4].Value = "Sách giáo khoa TV1";
             dgvDanhsach.Rows[1].Cells[4].Value = "Sách giáo khoa HH9";
             dgvDanhsach.Rows[2].Cells[4].Value = "Sách giáo khoa T11";
+            dgvDanhsach.Rows[3].Cells[4].Value = "Sách Tiếng Anh 9";
+            dgvDanhsach.Rows[4].Cells[4].Value = "Sách giáo khoa Ngữ Văn";
+            dgvDanhsach.Rows[5].Cells[4].Value = "Sách Bé tập tô";
+
+
             dgvDanhsach.Rows[0].Cells[5].Value = "Nhà xuất bản giáo dục";
-            dgvDanhsach.Rows[1].Cells[5].Value = "Nhà xuất bản giáo dục";
+            dgvDanhsach.Rows[1].Cells[5].Value = "Nhà xuất bản ĐH Quốc Gia";
             dgvDanhsach.Rows[2].Cells[5].Value = "Nhà xuất bản Kim Đồng";
+            dgvDanhsach.Rows[3].Cells[5].Value = "Nhà xuất bản giáo dục";
+            dgvDanhsach.Rows[4].Cells[5].Value = "Nhà xuất bản Hà Nội";
+            dgvDanhsach.Rows[5].Cells[5].Value = "Nhà xuất bản Kim Đồng";
+
+
             dgvDanhsach.Rows[0].Cells[6].Value = "01/12/2020";
             dgvDanhsach.Rows[1].Cells[6].Value = "01/11/2020";
             dgvDanhsach.Rows[2].Cells[6].Value = "11/12/2020";
+            dgvDanhsach.Rows[3].Cells[6].Value = "15/12/2020";
+            dgvDanhsach.Rows[4].Cells[6].Value = "09/11/2020";
+            dgvDanhsach.Rows[5].Cells[6].Value = "12/12/2020";
+
+            dgvDanhsach.Rows[0].Cells[7].Value = "3";
+            dgvDanhsach.Rows[1].Cells[7].Value = "1";
+            dgvDanhsach.Rows[2].Cells[7].Value = "2";
+            dgvDanhsach.Rows[3].Cells[7].Value = "1";
+            dgvDanhsach.Rows[4].Cells[7].Value = "3";
+            dgvDanhsach.Rows[5].Cells[7].Value = "2";
+
+            dgvDanhsach.Rows[0].Cells[8].Value = "Xanh";
+            dgvDanhsach.Rows[1].Cells[8].Value = "Vàng";
+            dgvDanhsach.Rows[2].Cells[8].Value = "Đỏ";
+            dgvDanhsach.Rows[3].Cells[8].Value = "Xanh";
+            dgvDanhsach.Rows[4].Cells[8].Value = "Vàng";
+            dgvDanhsach.Rows[5].Cells[8].Value = "Xanh";
 
         }
 
@@ -306,10 +352,7 @@ namespace WindowsFormsApplication1
         //    }
         //}
 
-        private void luoi1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
 
         private void luoi1_SelectionChanged(object sender, EventArgs e)
         {
