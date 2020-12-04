@@ -18,7 +18,7 @@ namespace WindowsFormsApplication1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new dangnhap());
-            Application.Run(new Formchinh());
+            Application.Run(new dangnhap());
         }
     }
 }

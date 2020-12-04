@@ -239,7 +239,7 @@
             this.pictureBox1.Image = global::WindowsFormsApplication1.Properties.Resources.what_is_the_new_role_of_a_school_library_in_the_digital_age;
             this.pictureBox1.Location = new System.Drawing.Point(0, 24);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(820, 550);
+            this.pictureBox1.Size = new System.Drawing.Size(820, 460);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;

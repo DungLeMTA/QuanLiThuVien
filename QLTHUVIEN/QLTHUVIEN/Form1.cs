@@ -18,6 +18,8 @@ namespace WindowsFormsApplication1
         Themsuaxoa t = new Themsuaxoa();
         string user = "admin";
         string pass = "1";
+        string khach = "khach";
+        string pass2 = "1";
        
         private void button1_Click(object sender, EventArgs e)
         {
@@ -45,7 +47,23 @@ namespace WindowsFormsApplication1
                 this.matkhau.Text = "";
 
             }
-            else { MessageBox.Show("Tên đăng nhập hoặc mật khẩu sai"); }
+            else
+            {
+                if (khach.Equals(taikhoan.Text) && pass2.Equals(matkhau.Text))
+                {
+
+                    MessageBox.Show("Đăng nhập thành công");
+
+                    Form f = new FormKhach();
+                    f.Show();
+                    this.Show();
+                    this.taikhoan.Text = "";
+                    this.matkhau.Text = "";
+
+                }
+                else { MessageBox.Show("Tên đăng nhập hoặc mật khẩu sai"); }
+            }
+           
         }
 
         private void thoat_Click(object sender, EventArgs e)
