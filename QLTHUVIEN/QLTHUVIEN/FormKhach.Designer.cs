@@ -49,8 +49,9 @@
             // tàiKhoảnCáNhânToolStripMenuItem
             // 
             this.tàiKhoảnCáNhânToolStripMenuItem.Name = "tàiKhoảnCáNhânToolStripMenuItem";
-            this.tàiKhoảnCáNhânToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
-            this.tàiKhoảnCáNhânToolStripMenuItem.Text = "Tài khoản cá nhân";
+            this.tàiKhoảnCáNhânToolStripMenuItem.Size = new System.Drawing.Size(139, 20);
+            this.tàiKhoảnCáNhânToolStripMenuItem.Text = "Tài khoản của SoneXay";
+            this.tàiKhoảnCáNhânToolStripMenuItem.Click += new System.EventHandler(this.tàiKhoảnCáNhânToolStripMenuItem_Click);
             // 
             // liênHệToolStripMenuItem
             // 

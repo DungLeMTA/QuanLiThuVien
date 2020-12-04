@@ -15,5 +15,24 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormLienHe f = new FormLienHe();
+            this.Hide();
+            f.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormKhach f = new FormKhach();
+            this.Hide();
+            f.Show();
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

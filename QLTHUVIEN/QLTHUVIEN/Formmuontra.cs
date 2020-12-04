@@ -463,6 +463,10 @@ namespace WindowsFormsApplication1
 
         public void luu1_Click(object sender, EventArgs e)
         {
+            Form f = new FormPass2();
+            f.Show();
+            MessageBox.Show("Xóa thành công");
+
             //string ngayhh = ngaymuon.Value.ToString("yyyy/MM/dd");//dịnh dạng ngày để insert vào sql
             //string ngayhhh = ngaytra.Value.ToString("yyyy/MM/dd");
             //date1 = Convert.ToDateTime(ngaymuon.Text);//lấy thông tin ngày mượn ngày trả để kiêm tra đk ngày mượn<=ngày trả.
@@ -585,17 +589,17 @@ namespace WindowsFormsApplication1
                 {
                     loaddata();
                     MessageBox.Show("Thêm thành công!");
-                    dgvDanhsach.RowCount += 1;
-                    int a = dgvDanhsach.RowCount - 1;
-                    dgvDanhsach.Rows[a].Cells[0].Value = "7";//(Int32.Parse(dgvDanhsach.Rows[a - 1].Cells[0].Value.ToString()) + 1).ToString();
-                    dgvDanhsach.Rows[a].Cells[1].Value = txtMaDocGia.Text;
-                    dgvDanhsach.Rows[a].Cells[2].Value = txtTenDocGia.Text;
-                    dgvDanhsach.Rows[a].Cells[3].Value = txtMa1.Text;
-                    dgvDanhsach.Rows[a].Cells[4].Value = txtTenSach1.Text;
-                    dgvDanhsach.Rows[a].Cells[5].Value = txtTacGia1.Text;
-                    dgvDanhsach.Rows[a].Cells[6].Value = DateTime.Now;
-                    dgvDanhsach.Rows[a].Cells[7].Value = Int32.Parse(txtSLDangMuon.Text) + 1;
-                    dgvDanhsach.Rows[a].Cells[8].Value = "Xanh";
+                    //dgvDanhsach.RowCount += 1;
+                    //int a = dgvDanhsach.RowCount - 1;
+                    //dgvDanhsach.Rows[a].Cells[0].Value = "7";//(Int32.Parse(dgvDanhsach.Rows[a - 1].Cells[0].Value.ToString()) + 1).ToString();
+                    //dgvDanhsach.Rows[a].Cells[1].Value = txtMaDocGia.Text;
+                    //dgvDanhsach.Rows[a].Cells[2].Value = txtTenDocGia.Text;
+                    //dgvDanhsach.Rows[a].Cells[3].Value = txtMa1.Text;
+                    //dgvDanhsach.Rows[a].Cells[4].Value = txtTenSach1.Text;
+                    //dgvDanhsach.Rows[a].Cells[5].Value = txtTacGia1.Text;
+                    //dgvDanhsach.Rows[a].Cells[6].Value = DateTime.Now;
+                    //dgvDanhsach.Rows[a].Cells[7].Value = Int32.Parse(txtSLDangMuon.Text) + 1;
+                    //dgvDanhsach.Rows[a].Cells[8].Value = "Xanh";
                 }
             }
             else
@@ -829,14 +833,17 @@ namespace WindowsFormsApplication1
         {
             if (txtMaSach2.Text == "SGK1000")
             {
+                txtTenSach2.Text = "Sách giáo khoa Hóa học 9";
                 pbAnh.Image = Image.FromFile("D:\\QuanLiThuVien\\QuanLiThuVien\\hoahoc.png");
             }
             if (txtMaSach2.Text == "SGK1001")
             {
+                txtTenSach2.Text = "Sách giáo khoa Ngữ văn 11";
                 pbAnh.Image = Image.FromFile("D:\\QuanLiThuVien\\QuanLiThuVien\\nguvan.png");
             }
             if (txtMaSach2.Text == "SGK1010")
             {
+                txtTenSach2.Text = "Tôi yêu em";
                 pbAnh.Image = Image.FromFile("D:\\QuanLiThuVien\\QuanLiThuVien\\tv.jpg");
             }
 
@@ -844,18 +851,75 @@ namespace WindowsFormsApplication1
 
         public void txtTimTenDocGia_TextChanged(object sender, EventArgs e)
         {
-            DataTable dtTen = new DataTable();
 
-            foreach (DataRow row in dt.Rows)
-            {
-                string ten = row[2].ToString();
-                if (ten.Contains(txtTimTenDocGia.Text))
-                {
-                    dtTen.Rows.Add(row);
-                }
-            }
+            //dgvDanhSach.Rows.Clear();
 
-            dgvDanhsach.DataSource = dtTen;
+            //dgvDanhsach.ColumnCount = 9;
+            //dgvDanhsach.Columns[0].HeaderText = "STT";
+            //dgvDanhsach.Columns[1].HeaderText = "Mã độc giả";
+            //dgvDanhsach.Columns[2].HeaderText = "Tên độc giả";
+            //dgvDanhsach.Columns[3].HeaderText = "Mã sách";
+            //dgvDanhsach.Columns[4].HeaderText = "Tên sách";
+            //dgvDanhsach.Columns[5].HeaderText = "Tác giả";
+            //dgvDanhsach.Columns[6].HeaderText = "Ngày mượn";
+            //dgvDanhsach.Columns[7].HeaderText = "Số lượng đang mượn";
+            //dgvDanhsach.Columns[8].HeaderText = "Trạng thái";
+            //dgvDanhsach.RowCount = 6;
+            //dgvDanhsach.Rows[0].Cells[0].Value = "1";
+            //dgvDanhsach.Rows[1].Cells[0].Value = "2";
+            //dgvDanhsach.Rows[2].Cells[0].Value = "3";
+            //dgvDanhsach.Rows[3].Cells[0].Value = "4";
+
+            //dgvDanhsach.Rows[0].Cells[1].Value = "AN0101";
+            //dgvDanhsach.Rows[1].Cells[1].Value = "AN0102";
+            //dgvDanhsach.Rows[2].Cells[1].Value = "AN0103";
+            //dgvDanhsach.Rows[3].Cells[1].Value = "AN0104";
+
+
+
+            //dgvDanhsach.Rows[0].Cells[2].Value = "Lê Văn Phiêu";
+            //dgvDanhsach.Rows[1].Cells[2].Value = "Trần Sang Anh";
+            //dgvDanhsach.Rows[2].Cells[2].Value = "Lê Duy Dũng";
+            //dgvDanhsach.Rows[3].Cells[2].Value = "Mạnh Tuấn Đạt";
+
+
+            //dgvDanhsach.Rows[0].Cells[3].Value = "SGK1000";
+            //dgvDanhsach.Rows[1].Cells[3].Value = "SGK1001";
+            //dgvDanhsach.Rows[2].Cells[3].Value = "SGK1010";
+            //dgvDanhsach.Rows[3].Cells[3].Value = "SGK1000";
+
+
+
+            //dgvDanhsach.Rows[0].Cells[4].Value = "Sách giáo khoa TV1";
+            //dgvDanhsach.Rows[1].Cells[4].Value = "Sách giáo khoa HH9";
+            //dgvDanhsach.Rows[2].Cells[4].Value = "Sách giáo khoa T11";
+            //dgvDanhsach.Rows[3].Cells[4].Value = "Sách Tiếng Anh 9";
+
+
+
+            //dgvDanhsach.Rows[0].Cells[5].Value = "Nhà xuất bản giáo dục";
+            //dgvDanhsach.Rows[1].Cells[5].Value = "Nhà xuất bản ĐH Quốc Gia";
+            //dgvDanhsach.Rows[2].Cells[5].Value = "Nhà xuất bản Kim Đồng";
+            //dgvDanhsach.Rows[3].Cells[5].Value = "Nhà xuất bản giáo dục";
+
+
+            //dgvDanhsach.Rows[0].Cells[6].Value = "01/12/2020";
+            //dgvDanhsach.Rows[1].Cells[6].Value = "01/11/2020";
+            //dgvDanhsach.Rows[2].Cells[6].Value = "11/12/2020";
+            //dgvDanhsach.Rows[3].Cells[6].Value = "15/12/2020";
+
+
+            //dgvDanhsach.Rows[0].Cells[7].Value = "3";
+            //dgvDanhsach.Rows[1].Cells[7].Value = "1";
+            //dgvDanhsach.Rows[2].Cells[7].Value = "2";
+            //dgvDanhsach.Rows[3].Cells[7].Value = "1";
+
+
+            //dgvDanhsach.Rows[0].Cells[8].Value = "Xanh";
+            //dgvDanhsach.Rows[1].Cells[8].Value = "Vàng";
+            //dgvDanhsach.Rows[2].Cells[8].Value = "Đỏ";
+            //dgvDanhsach.Rows[3].Cells[8].Value = "Xanh";
+
         }
 
         public void txtTimMaDocGia_TextChanged(object sender, EventArgs e)
@@ -873,11 +937,119 @@ namespace WindowsFormsApplication1
 
         }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            dgvDanhSach = new DataGridView();
+            {
+                dgvDanhsach.ColumnCount = 9;
+                dgvDanhsach.Columns[0].HeaderText = "STT";
+                dgvDanhsach.Columns[1].HeaderText = "Mã độc giả";
+                dgvDanhsach.Columns[2].HeaderText = "Tên độc giả";
+                dgvDanhsach.Columns[3].HeaderText = "Mã sách";
+                dgvDanhsach.Columns[4].HeaderText = "Tên sách";
+                dgvDanhsach.Columns[5].HeaderText = "Tác giả";
+                dgvDanhsach.Columns[6].HeaderText = "Ngày mượn";
+                dgvDanhsach.Columns[7].HeaderText = "Số lượng đang mượn";
+                dgvDanhsach.Columns[8].HeaderText = "Trạng thái";
+                dgvDanhsach.RowCount = 6;
+                dgvDanhsach.Rows[0].Cells[0].Value = "1";
+                dgvDanhsach.Rows[1].Cells[0].Value = "2";
+                dgvDanhsach.Rows[2].Cells[0].Value = "3";
+                dgvDanhsach.Rows[3].Cells[0].Value = "4";
+                dgvDanhsach.Rows[4].Cells[0].Value = "5";
+                dgvDanhsach.Rows[5].Cells[0].Value = "6";
 
+                dgvDanhsach.Rows[0].Cells[1].Value = "AN0101";
+                dgvDanhsach.Rows[1].Cells[1].Value = "AN0102";
+                dgvDanhsach.Rows[2].Cells[1].Value = "AN0103";
+                dgvDanhsach.Rows[3].Cells[1].Value = "AN0104";
+                dgvDanhsach.Rows[4].Cells[1].Value = "AN0105";
+                dgvDanhsach.Rows[5].Cells[1].Value = "AN0106";
+
+
+                dgvDanhsach.Rows[0].Cells[2].Value = "Lê Văn Phiêu";
+                dgvDanhsach.Rows[1].Cells[2].Value = "Trần Sang Anh";
+                dgvDanhsach.Rows[2].Cells[2].Value = "Lê Duy Dũng";
+                dgvDanhsach.Rows[3].Cells[2].Value = "Mạnh Tuấn Đạt";
+                dgvDanhsach.Rows[4].Cells[2].Value = "SoneXay";
+                dgvDanhsach.Rows[5].Cells[2].Value = "Lê Duy Dũng";
+
+                dgvDanhsach.Rows[0].Cells[3].Value = "SGK1000";
+                dgvDanhsach.Rows[1].Cells[3].Value = "SGK1001";
+                dgvDanhsach.Rows[2].Cells[3].Value = "SGK1010";
+                dgvDanhsach.Rows[3].Cells[3].Value = "SGK1000";
+                dgvDanhsach.Rows[4].Cells[3].Value = "SGK1010";
+                dgvDanhsach.Rows[5].Cells[3].Value = "SGK1001";
+
+
+                dgvDanhsach.Rows[0].Cells[4].Value = "Sách giáo khoa TV1";
+                dgvDanhsach.Rows[1].Cells[4].Value = "Sách giáo khoa HH9";
+                dgvDanhsach.Rows[2].Cells[4].Value = "Sách giáo khoa T11";
+                dgvDanhsach.Rows[3].Cells[4].Value = "Sách Tiếng Anh 9";
+                dgvDanhsach.Rows[4].Cells[4].Value = "Sách giáo khoa Ngữ Văn";
+                dgvDanhsach.Rows[5].Cells[4].Value = "Sách Bé tập tô";
+
+
+                dgvDanhsach.Rows[0].Cells[5].Value = "Nhà xuất bản giáo dục";
+                dgvDanhsach.Rows[1].Cells[5].Value = "Nhà xuất bản ĐH Quốc Gia";
+                dgvDanhsach.Rows[2].Cells[5].Value = "Nhà xuất bản Kim Đồng";
+                dgvDanhsach.Rows[3].Cells[5].Value = "Nhà xuất bản giáo dục";
+                dgvDanhsach.Rows[4].Cells[5].Value = "Nhà xuất bản Hà Nội";
+                dgvDanhsach.Rows[5].Cells[5].Value = "Nhà xuất bản Kim Đồng";
+
+                dgvDanhsach.Rows[0].Cells[6].Value = "01/12/2020";
+                dgvDanhsach.Rows[1].Cells[6].Value = "01/11/2020";
+                dgvDanhsach.Rows[2].Cells[6].Value = "11/12/2020";
+                dgvDanhsach.Rows[3].Cells[6].Value = "15/12/2020";
+                dgvDanhsach.Rows[4].Cells[6].Value = "09/11/2020";
+                dgvDanhsach.Rows[5].Cells[6].Value = "12/12/2020";
+
+                dgvDanhsach.Rows[0].Cells[7].Value = "3";
+                dgvDanhsach.Rows[1].Cells[7].Value = "1";
+                dgvDanhsach.Rows[2].Cells[7].Value = "2";
+                dgvDanhsach.Rows[3].Cells[7].Value = "1";
+                dgvDanhsach.Rows[4].Cells[7].Value = "3";
+                dgvDanhsach.Rows[5].Cells[7].Value = "2";
+
+                dgvDanhsach.Rows[0].Cells[8].Value = "Xanh";
+                dgvDanhsach.Rows[1].Cells[8].Value = "Vàng";
+                dgvDanhsach.Rows[2].Cells[8].Value = "Đỏ";
+                dgvDanhsach.Rows[3].Cells[8].Value = "Xanh";
+                dgvDanhsach.Rows[4].Cells[8].Value = "Vàng";
+                dgvDanhsach.Rows[5].Cells[8].Value = "Xanh";
+            }
+        }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+            Form f = new FormPass2();
+            f.Show();
+            MessageBox.Show("Lưu thành công");
+            txtMaDocGia2.Enabled = false;
+            txtMaSach2.Enabled = false;
+        }
+
+        private void txtMaDocGia2_TextChanged(object sender, EventArgs e)
+        {
+            if (txtMaDocGia2.Text == "AN1000")
+            {
+                txtTenDocGia2.Text = "Nguyễn Quang Hải";
+            }
+            if (txtMaDocGia2.Text == "AN1001")
+            {
+                txtTenDocGia2.Text = "Nguyễn Công Phượng";
+            }
+            if (txtMaDocGia2.Text == "AN1010")
+            {
+                txtTenDocGia2.Text = "Đặng Văn Lâm";
+            }
+        }
 
         public void xoa1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xóa thành công");
+            txtMaDocGia2.Enabled = true;
+            txtMaSach2.Enabled = true;
+
             //if (xoa1.Text == "hủy")
             //{
 

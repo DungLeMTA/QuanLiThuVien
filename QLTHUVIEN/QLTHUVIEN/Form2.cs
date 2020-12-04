@@ -125,5 +125,12 @@ namespace WindowsFormsApplication1
             f.Show();
             //this.Show();
         }
+
+        private void độcGiảLiênHệToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormPhanHoi f = new FormPhanHoi();
+            this.Hide();
+            f.Show();
+        }
     }
 }

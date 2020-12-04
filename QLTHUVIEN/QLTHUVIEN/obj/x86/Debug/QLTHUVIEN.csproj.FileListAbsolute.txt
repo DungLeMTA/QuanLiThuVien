@@ -66,3 +66,5 @@ D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.pdb
 D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.FormPass2.resources
 D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.FormKhach.resources
 D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.FormLienHe.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.FormTaiKhoan.resources
+D:\QuanLiThuVien\QuanLiThuVien\QLTHUVIEN\QLTHUVIEN\obj\x86\Debug\WindowsFormsApplication1.FormPhanHoi.resources

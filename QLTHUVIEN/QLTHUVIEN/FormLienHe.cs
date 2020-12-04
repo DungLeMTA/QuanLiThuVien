@@ -18,7 +18,23 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Gửi thành công");
+            if(txtTieuDe.Text == "")
+            {
+
+                MessageBox.Show("Chưa nhập tiêu đề");
+            }
+            else
+            {
+                if(rtbNoiDung.Text == "")
+                {
+                    MessageBox.Show("Chưa điền nội dung");
+                }
+                else
+                {
+                    MessageBox.Show("Gửi thành công");
+                }
+            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -22,5 +22,12 @@ namespace WindowsFormsApplication1
             this.Hide();
             f.Show();
         }
+
+        private void tàiKhoảnCáNhânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormTaiKhoan f = new FormTaiKhoan();
+            this.Hide();
+            f.Show();
+        }
     }
 }

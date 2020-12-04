@@ -119,6 +119,18 @@
     <Compile Include="FormPass2.Designer.cs">
       <DependentUpon>FormPass2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPhanHoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPhanHoi.Designer.cs">
+      <DependentUpon>FormPhanHoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTaiKhoan.Designer.cs">
+      <DependentUpon>FormTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formthongkedocgia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +193,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPass2.resx">
       <DependentUpon>FormPass2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPhanHoi.resx">
+      <DependentUpon>FormPhanHoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTaiKhoan.resx">
+      <DependentUpon>FormTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formthongkedocgia.resx">
       <DependentUpon>Formthongkedocgia.cs</DependentUpon>

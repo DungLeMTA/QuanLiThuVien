@@ -75,7 +75,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tab2 = new System.Windows.Forms.TabPage();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.pbMaDocGia2 = new System.Windows.Forms.PictureBox();
             this.txtTimTenDocGia = new System.Windows.Forms.TextBox();
             this.txtTimMaDocGia = new System.Windows.Forms.TextBox();
             this.txtTimTenSach = new System.Windows.Forms.TextBox();
@@ -84,7 +86,6 @@
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.pbAnh = new System.Windows.Forms.PictureBox();
             this.txtTenSachMuon2 = new System.Windows.Forms.TextBox();
             this.txtMaSach2 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -101,6 +102,7 @@
             this.ngaymuon = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.pbAnh = new System.Windows.Forms.PictureBox();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -112,6 +114,7 @@
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.btnQuayLai = new System.Windows.Forms.Button();
+            this.pbMaSach2 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tab1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSLMuon)).BeginInit();
@@ -123,9 +126,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbAnh2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAnh1)).BeginInit();
             this.tab2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAnh)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMaDocGia2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhsach)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAnh)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMaSach2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -610,7 +614,10 @@
             // 
             // tab2
             // 
-            this.tab2.Controls.Add(this.pictureBox9);
+            this.tab2.Controls.Add(this.pbMaSach2);
+            this.tab2.Controls.Add(this.button1);
+            this.tab2.Controls.Add(this.btnLuu);
+            this.tab2.Controls.Add(this.pbMaDocGia2);
             this.tab2.Controls.Add(this.txtTimTenDocGia);
             this.tab2.Controls.Add(this.txtTimMaDocGia);
             this.tab2.Controls.Add(this.txtTimTenSach);
@@ -619,7 +626,6 @@
             this.tab2.Controls.Add(this.label31);
             this.tab2.Controls.Add(this.label30);
             this.tab2.Controls.Add(this.label29);
-            this.tab2.Controls.Add(this.pbAnh);
             this.tab2.Controls.Add(this.txtTenSachMuon2);
             this.tab2.Controls.Add(this.txtMaSach2);
             this.tab2.Controls.Add(this.label12);
@@ -636,6 +642,7 @@
             this.tab2.Controls.Add(this.ngaymuon);
             this.tab2.Controls.Add(this.label8);
             this.tab2.Controls.Add(this.label7);
+            this.tab2.Controls.Add(this.pbAnh);
             this.tab2.Location = new System.Drawing.Point(4, 22);
             this.tab2.Name = "tab2";
             this.tab2.Padding = new System.Windows.Forms.Padding(3);
@@ -645,16 +652,38 @@
             this.tab2.UseVisualStyleBackColor = true;
             this.tab2.Click += new System.EventHandler(this.tab2_Click);
             // 
-            // pictureBox9
+            // button1
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(255, 117);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 84;
-            this.pictureBox9.TabStop = false;
+            this.button1.Location = new System.Drawing.Point(17, 221);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 32);
+            this.button1.TabIndex = 86;
+            this.button1.Text = "Tất cả";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // btnLuu
+            // 
+            this.btnLuu.Enabled = false;
+            this.btnLuu.Location = new System.Drawing.Point(383, 221);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(121, 32);
+            this.btnLuu.TabIndex = 85;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
+            // 
+            // pbMaDocGia2
+            // 
+            this.pbMaDocGia2.BackColor = System.Drawing.Color.Gray;
+            this.pbMaDocGia2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbMaDocGia2.Image = ((System.Drawing.Image)(resources.GetObject("pbMaDocGia2.Image")));
+            this.pbMaDocGia2.Location = new System.Drawing.Point(258, 60);
+            this.pbMaDocGia2.Name = "pbMaDocGia2";
+            this.pbMaDocGia2.Size = new System.Drawing.Size(32, 27);
+            this.pbMaDocGia2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMaDocGia2.TabIndex = 84;
+            this.pbMaDocGia2.TabStop = false;
             // 
             // txtTimTenDocGia
             // 
@@ -728,17 +757,6 @@
             this.label29.TabIndex = 56;
             this.label29.Text = "Tìm theo mã sách";
             // 
-            // pbAnh
-            // 
-            this.pbAnh.BackColor = System.Drawing.Color.Gray;
-            this.pbAnh.Image = ((System.Drawing.Image)(resources.GetObject("pbAnh.Image")));
-            this.pbAnh.Location = new System.Drawing.Point(560, 67);
-            this.pbAnh.Name = "pbAnh";
-            this.pbAnh.Size = new System.Drawing.Size(125, 134);
-            this.pbAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbAnh.TabIndex = 55;
-            this.pbAnh.TabStop = false;
-            // 
             // txtTenSachMuon2
             // 
             this.txtTenSachMuon2.Enabled = false;
@@ -746,7 +764,6 @@
             this.txtTenSachMuon2.Name = "txtTenSachMuon2";
             this.txtTenSachMuon2.Size = new System.Drawing.Size(121, 20);
             this.txtTenSachMuon2.TabIndex = 54;
-            //this.txtTenSachMuon2.TextChanged += new System.EventHandler(this.txtTenSachMuon2_TextChanged);
             // 
             // txtMaSach2
             // 
@@ -802,6 +819,7 @@
             this.txtMaDocGia2.Name = "txtMaDocGia2";
             this.txtMaDocGia2.Size = new System.Drawing.Size(121, 20);
             this.txtMaDocGia2.TabIndex = 48;
+            this.txtMaDocGia2.TextChanged += new System.EventHandler(this.txtMaDocGia2_TextChanged);
             // 
             // label9
             // 
@@ -815,7 +833,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(420, 221);
+            this.btnXoa.Location = new System.Drawing.Point(560, 221);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(121, 32);
             this.btnXoa.TabIndex = 22;
@@ -825,7 +843,7 @@
             // 
             // btnCapNhat
             // 
-            this.btnCapNhat.Location = new System.Drawing.Point(131, 221);
+            this.btnCapNhat.Location = new System.Drawing.Point(196, 221);
             this.btnCapNhat.Name = "btnCapNhat";
             this.btnCapNhat.Size = new System.Drawing.Size(121, 32);
             this.btnCapNhat.TabIndex = 21;
@@ -836,7 +854,6 @@
             // dgvDanhsach
             // 
             this.dgvDanhsach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-
             this.dgvDanhsach.Location = new System.Drawing.Point(7, 341);
             this.dgvDanhsach.Name = "dgvDanhsach";
             this.dgvDanhsach.Size = new System.Drawing.Size(678, 196);
@@ -897,6 +914,17 @@
             this.label7.Text = "Danh sách mượn";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
+            // pbAnh
+            // 
+            this.pbAnh.BackColor = System.Drawing.Color.Gray;
+            this.pbAnh.Image = ((System.Drawing.Image)(resources.GetObject("pbAnh.Image")));
+            this.pbAnh.Location = new System.Drawing.Point(560, 67);
+            this.pbAnh.Name = "pbAnh";
+            this.pbAnh.Size = new System.Drawing.Size(125, 134);
+            this.pbAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbAnh.TabIndex = 55;
+            this.pbAnh.TabStop = false;
+            // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -953,6 +981,18 @@
             this.btnQuayLai.UseVisualStyleBackColor = true;
             this.btnQuayLai.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pbMaSach2
+            // 
+            this.pbMaSach2.BackColor = System.Drawing.Color.Gray;
+            this.pbMaSach2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbMaSach2.Image = ((System.Drawing.Image)(resources.GetObject("pbMaSach2.Image")));
+            this.pbMaSach2.Location = new System.Drawing.Point(258, 117);
+            this.pbMaSach2.Name = "pbMaSach2";
+            this.pbMaSach2.Size = new System.Drawing.Size(32, 27);
+            this.pbMaSach2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMaSach2.TabIndex = 87;
+            this.pbMaSach2.TabStop = false;
+            // 
             // Formmuontra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -979,9 +1019,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbAnh1)).EndInit();
             this.tab2.ResumeLayout(false);
             this.tab2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAnh)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMaDocGia2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhsach)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAnh)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMaSach2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1056,7 +1097,7 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.PictureBox pbMa3;
         private System.Windows.Forms.PictureBox pbMa2;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pbMaDocGia2;
         private System.Windows.Forms.PictureBox pbMa1;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtMa1;
@@ -1072,5 +1113,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pbMaSach2;
     }
 }
